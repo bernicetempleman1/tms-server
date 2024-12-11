@@ -23,7 +23,7 @@ const projectRouter = require("../routes/project");
 let app = express();
 
 // Mongoose connection added by BT 11/26/2024
-const connectionString =
+const connectionString = process.env.DB_CONN ||
   "mongodb+srv://tms_user:s3cret@bellevueuniversity.lftytpq.mongodb.net/?retryWrites=true&w=majority&appName=BellevueUniversity";
 const dbName = "tms"; // Database name
 
