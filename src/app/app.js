@@ -18,7 +18,6 @@ const indexRouter = require("../routes/index");
 const taskRouter = require("../routes/task");
 const projectRouter = require("../routes/project");
 
-
 // Variable declaration for the express app
 let app = express();
 
